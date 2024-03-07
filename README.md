@@ -19,6 +19,12 @@ The client wanted the following data scraped from the website: title, author, ma
 <picture><img src="https://github.com/miahj1/librivox-scraper/assets/84815985/201958dc-4771-46ea-a0fa-9562d03099c6"></picture>
 <picture><img src="https://github.com/miahj1/librivox-scraper/assets/84815985/0af44e0e-9f03-4235-b26c-c852e4b81e3b"></picture>
 
+After collecting all the data, the client also wanted the data to be heavily pre-processed as follows: 
+- Removal of single quotation `'` and backslash `\` from the titles of the books.
+- Removal of `by` from the titles of the audiobooks e.g. the title would look like this for certain books `Book Title by Book Author`.
+- Client's team manually listed books into a CSV with 4,000 titles: they wanted me to compare the titles already there and remove them.
+- The data collected also had many duplicate URLS leading to the same book, so I grouped them into one cell where titles are comma seperated.
+
 ## Data Preview
 
 
