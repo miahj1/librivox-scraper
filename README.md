@@ -28,6 +28,7 @@ After collecting all the data, the client also wanted the data to be heavily pre
 Now, this process would have to be done every month using an ETL pipeline as client requested monthly data for all the new releases on the website.
 
 ## Data Preview
+The amount of data collected is `41,000` datapoints after grouping it is reduced to `4,000`.
 <picture><img src="https://github.com/miahj1/librivox-scraper/assets/84815985/d7aa2969-947b-4fd3-8e2f-fc93c645987e"></picture>
 
 ## Client Feedback
