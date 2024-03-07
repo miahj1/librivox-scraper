@@ -23,7 +23,9 @@ After collecting all the data, the client also wanted the data to be heavily pre
 - Removal of single quotation `'` and backslash `\` from the titles of the books.
 - Removal of `by` from the titles of the audiobooks e.g. the title would look like this for certain books `Book Title by Book Author`.
 - Client's team manually listed books into a CSV with 4,000 titles: they wanted me to compare the titles already there and remove them.
-- The data collected also had many duplicate URLS leading to the same book, so I grouped them into one cell where titles are comma seperated.
+- The data collected also had many duplicate URLs as per `Link 2` leading to the same book, so I grouped them into one cell where titles are comma seperated.
+
+Now, this process would have to be done every month using an ETL pipeline as client requested monthly data for all the new releases on the website.
 
 ## Data Preview
 <picture><img src="https://github.com/miahj1/librivox-scraper/assets/84815985/d7aa2969-947b-4fd3-8e2f-fc93c645987e"></picture>
