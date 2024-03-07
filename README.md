@@ -31,3 +31,4 @@ Now, this process would have to be done every month using an ETL pipeline as cli
 <picture><img src="https://github.com/miahj1/librivox-scraper/assets/84815985/d7aa2969-947b-4fd3-8e2f-fc93c645987e"></picture>
 
 ## Client Feedback
+This is an ongoing effort: the client has already paid for a majority of the milestones.
